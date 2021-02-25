@@ -1,0 +1,24 @@
+[
+  {
+    "labels": [
+      {
+        "name": "uuid",
+        "value": "22ffea10-7fc4-4427-975a-b9e4ce8f6f4d"
+      }
+    ],
+    "metricName": "wifi_usage",
+    "timestamp": 1561567965000,
+    "value": 10000
+  },
+  {
+    "labels": [
+      {
+        "name": "uuid",
+        "value": "22ffea10-7fc4-4427-975a-b9e4ce8f6f4d"
+      }
+    ],
+    "metricName": "cell_usage",
+    "timestamp": 1561567965000,
+    "value": 10000
+  }
+]

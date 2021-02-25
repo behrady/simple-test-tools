@@ -1,0 +1,85 @@
+{
+  "cellular": {
+    "epc": {
+      "cloud_subscriberdb_enabled": false,
+      "default_rule_id": "default_rule_1",
+      "lte_auth_amf": "gAA=",
+      "lte_auth_op": "EREREREREREREREREREREQ==",
+      "mcc": "001",
+      "mnc": "01",
+      "mobility": {
+        "ip_allocation_mode": "NAT",
+        "nat": {
+          "ip_blocks": [
+            "192.168.0.0/16"
+          ]
+        },
+        "reserved_addresses": [
+          "192.168.0.1"
+        ]
+      },
+      "network_services": [
+        "policy_enforcement"
+      ],
+      "relay_enabled": false,
+      "sub_profiles": {
+        "additionalProp1": {
+          "max_dl_bit_rate": 20000000,
+          "max_ul_bit_rate": 100000000
+        },
+        "additionalProp2": {
+          "max_dl_bit_rate": 20000000,
+          "max_ul_bit_rate": 100000000
+        },
+        "additionalProp3": {
+          "max_dl_bit_rate": 20000000,
+          "max_ul_bit_rate": 100000000
+        }
+      },
+      "tac": 1
+    },
+    "ran": {
+      "bandwidth_mhz": 20,
+      "tdd_config": {
+        "earfcndl": 44590,
+        "special_subframe_pattern": 7,
+        "subframe_assignment": 2
+      }
+    }
+  },
+  "description": "Foobar network",
+  "dns": {
+    "enable_caching": false,
+    "local_ttl": 0,
+    "records": [
+      {
+        "a_record": [
+          "192.88.99.142"
+        ],
+        "aaaa_record": [
+          "2001:0db8:85a3:0000:0000:8a2e:0370:7334"
+        ],
+        "cname_record": [
+          "cname.example.com"
+        ],
+        "domain": "example.com"
+      }
+    ]
+  },
+  "features": {
+    "features": {
+      "featureName1": "featureProp1",
+      "featureName2": "featureProp2"
+    }
+  },
+  "id": "network_1",
+  "name": "Sample Network",
+  "subscriber_config": {
+    "network_wide_base_names": [
+      "base_1"
+    ],
+    "network_wide_rule_names": [
+      "rule_1"
+    ]
+  }
+}
